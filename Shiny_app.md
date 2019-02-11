@@ -44,14 +44,8 @@ summary(mtcars)
  Max.   :1.0000   Max.   :5.000   Max.   :8.000  
 ```
 
-Relationshio between Horsepower and Displacement
+Relationship between Horsepower and Displacement
 ========================================================
-
-```r
-plot(mtcars$hp ~ mtcars$disp, data = mtcars)
-abline(lm(mtcars$hp ~ mtcars$disp), col = "red", lwd = 2)
-```
-
 ![plot of chunk unnamed-chunk-2](Shiny_app-figure/unnamed-chunk-2-1.png)
 
 

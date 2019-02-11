@@ -19,9 +19,9 @@ Data set
 summary(mtcars)
 ```
 
-Relationshio between Horsepower and Displacement
+Relationship between Horsepower and Displacement
 ========================================================
-```{r}
+```{r, echo = FALSE}
 plot(mtcars$hp ~ mtcars$disp, data = mtcars)
 abline(lm(mtcars$hp ~ mtcars$disp), col = "red", lwd = 2)
 ```
